@@ -1,0 +1,28 @@
+# Build outputs
+*.o
+IPV6_FRAG_ESCAPE_amzn2023_x86_64
+
+# Target-specific captures and generated bundles
+*.btf
+preflight/
+preflight-*/
+cve-2026-53362-target-*/
+cve-2026-53362-target-*.tar
+cve-2026-53362-target-*.tar.gz
+ram-ranges.txt
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials
+credentials.*
+
+# Editor and OS files
+.DS_Store
+*.swp
+*~
